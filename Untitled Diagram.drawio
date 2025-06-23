@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="Page-1" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
-    <mxGraphModel dx="1009" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="2000" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1211" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="2000" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -648,6 +648,178 @@
         </mxCell>
         <mxCell id="ZF72Yf7-sbAUzCkSVSFs-28" value="&lt;span&gt;索敌系统丢失玩家目标&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1597.5" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-59" value="追击状态" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1890" width="1040" height="640" as="geometry">
+            <mxRectangle x="280" y="1110" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZF72Yf7-sbAUzCkSVSFs-59" source="ZF72Yf7-sbAUzCkSVSFs-61" target="ZF72Yf7-sbAUzCkSVSFs-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-61" value="步行追击" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#fff2cc;strokeColor=#d6b656;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="ZF72Yf7-sbAUzCkSVSFs-59">
+          <mxGeometry x="407" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="ZF72Yf7-sbAUzCkSVSFs-59" source="ZF72Yf7-sbAUzCkSVSFs-62" target="ZF72Yf7-sbAUzCkSVSFs-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="ZF72Yf7-sbAUzCkSVSFs-59" source="ZF72Yf7-sbAUzCkSVSFs-62" target="ZF72Yf7-sbAUzCkSVSFs-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-62" value="接近" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#fff2cc;strokeColor=#d6b656;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="ZF72Yf7-sbAUzCkSVSFs-59">
+          <mxGeometry x="401" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="ZF72Yf7-sbAUzCkSVSFs-59" source="ZF72Yf7-sbAUzCkSVSFs-65" target="ZF72Yf7-sbAUzCkSVSFs-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ZF72Yf7-sbAUzCkSVSFs-59" source="ZF72Yf7-sbAUzCkSVSFs-65" target="ZF72Yf7-sbAUzCkSVSFs-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-65" value="追逐" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#fff2cc;strokeColor=#d6b656;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="ZF72Yf7-sbAUzCkSVSFs-59">
+          <mxGeometry x="401" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ZF72Yf7-sbAUzCkSVSFs-59" source="ZF72Yf7-sbAUzCkSVSFs-69" target="ZF72Yf7-sbAUzCkSVSFs-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="265" />
+              <mxPoint x="130" y="70" />
+              <mxPoint x="400" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ZF72Yf7-sbAUzCkSVSFs-59" source="ZF72Yf7-sbAUzCkSVSFs-69" target="ZF72Yf7-sbAUzCkSVSFs-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="330" />
+              <mxPoint x="130" y="240" />
+              <mxPoint x="401" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ZF72Yf7-sbAUzCkSVSFs-59" source="ZF72Yf7-sbAUzCkSVSFs-69" target="ZF72Yf7-sbAUzCkSVSFs-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="320" />
+              <mxPoint x="130" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="ZF72Yf7-sbAUzCkSVSFs-59" source="ZF72Yf7-sbAUzCkSVSFs-69" target="ZF72Yf7-sbAUzCkSVSFs-120">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="320" />
+              <mxPoint x="130" y="600" />
+              <mxPoint x="676" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ZF72Yf7-sbAUzCkSVSFs-59" source="ZF72Yf7-sbAUzCkSVSFs-69" target="ZF72Yf7-sbAUzCkSVSFs-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="30" y="320" />
+              <mxPoint x="130" y="320" />
+              <mxPoint x="130" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-69" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=5;" vertex="1" parent="ZF72Yf7-sbAUzCkSVSFs-59">
+          <mxGeometry x="20" y="310" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZF72Yf7-sbAUzCkSVSFs-59" source="ZF72Yf7-sbAUzCkSVSFs-72" target="ZF72Yf7-sbAUzCkSVSFs-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-72" value="上车" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#fff2cc;strokeColor=#d6b656;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="ZF72Yf7-sbAUzCkSVSFs-59">
+          <mxGeometry x="407" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ZF72Yf7-sbAUzCkSVSFs-59" source="ZF72Yf7-sbAUzCkSVSFs-94" target="ZF72Yf7-sbAUzCkSVSFs-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ZF72Yf7-sbAUzCkSVSFs-59" source="ZF72Yf7-sbAUzCkSVSFs-94" target="ZF72Yf7-sbAUzCkSVSFs-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-94" value="车内等待" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#fff2cc;strokeColor=#d6b656;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="ZF72Yf7-sbAUzCkSVSFs-59">
+          <mxGeometry x="646" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ZF72Yf7-sbAUzCkSVSFs-59" target="ZF72Yf7-sbAUzCkSVSFs-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="500" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-179" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="ZF72Yf7-sbAUzCkSVSFs-59" source="ZF72Yf7-sbAUzCkSVSFs-120" target="ZF72Yf7-sbAUzCkSVSFs-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-120" value="下车" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#fff2cc;strokeColor=#d6b656;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="ZF72Yf7-sbAUzCkSVSFs-59">
+          <mxGeometry x="646" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ZF72Yf7-sbAUzCkSVSFs-59" source="ZF72Yf7-sbAUzCkSVSFs-65" target="ZF72Yf7-sbAUzCkSVSFs-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-139" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; caret-color: rgb(0, 122, 255); white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;目标在步行追击距离外 &amp;amp; 周围10米内无空座警车&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;caret-color: rgb(0, 122, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;目标在步行追击距离内 &amp;amp; 地面目标&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;caret-color: rgb(0, 122, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;目标在步行追击距离内 &amp;amp; 移动目标 &amp;amp; 周围10米内无空座警车&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=8;" vertex="1" parent="ZF72Yf7-sbAUzCkSVSFs-59">
+          <mxGeometry x="109" y="50" width="292" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-140" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;caret-color: rgb(0, 122, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font&gt;目标在步行追击距离外 &amp;amp; 周围10米内有空座警车 &amp;amp; 没有暂时不上车标记&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;caret-color: rgb(0, 122, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font&gt;目标在步行追击距离内 &amp;amp; 移动目标 &amp;amp; 周围10米内有空座警车 &amp;amp; 没有暂时不上车标记&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=8;" vertex="1" parent="ZF72Yf7-sbAUzCkSVSFs-59">
+          <mxGeometry x="106" y="180" width="301" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-145" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 8px; orphans: 4; caret-color: rgb(0, 122, 255); white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;移动目标&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=9;" vertex="1" parent="ZF72Yf7-sbAUzCkSVSFs-59">
+          <mxGeometry x="110.5" y="340" width="292" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-147" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 8px; orphans: 4; caret-color: rgb(0, 122, 255); white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;地面目标 &amp;amp; 目标在载具停靠距离外(&amp;gt;15米)&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=9;" vertex="1" parent="ZF72Yf7-sbAUzCkSVSFs-59">
+          <mxGeometry x="110.5" y="450" width="292" height="80" as="geometry" />
+        </mxCell>
+        <UserObject label="+ 自己是步行" placeholders="1" name="Variable" id="ZF72Yf7-sbAUzCkSVSFs-148">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=8;labelBackgroundColor=none;" vertex="1" parent="ZF72Yf7-sbAUzCkSVSFs-59">
+            <mxGeometry x="90" y="280" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+ 自己是乘车" placeholders="1" name="Variable" id="ZF72Yf7-sbAUzCkSVSFs-149">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=8;labelBackgroundColor=none;" vertex="1" parent="ZF72Yf7-sbAUzCkSVSFs-59">
+            <mxGeometry x="90" y="340" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-143" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 8px; orphans: 4; caret-color: rgb(0, 122, 255); white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;地面目标 &amp;amp; 目标在载具停靠距离内(≤15米)&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=9;" vertex="1" parent="ZF72Yf7-sbAUzCkSVSFs-59">
+          <mxGeometry x="109" y="550" width="292" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-156" value="&lt;ul&gt;&lt;li style=&quot;orphans: 4;&quot;&gt;&lt;font face=&quot;Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, Segoe UI Emoji, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 8px; caret-color: rgb(0, 122, 255); white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;上车成功&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=9;" vertex="1" parent="ZF72Yf7-sbAUzCkSVSFs-59">
+          <mxGeometry x="513.5" y="190" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-157" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;caret-color: rgb(0, 122, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font&gt;目标在步行追击距离外 &amp;amp; 周围10米内有空座警车 &amp;amp; 没有暂时不上车标记&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;caret-color: rgb(0, 122, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; orphans: 4; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font&gt;目标在步行追击距离内 &amp;amp; 移动目标 &amp;amp; 周围10米内有空座警车 &amp;amp; 没有暂时不上车标记&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=8;" vertex="1" parent="ZF72Yf7-sbAUzCkSVSFs-59">
+          <mxGeometry x="350" y="110" width="192.75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-164" value="&lt;ul&gt;&lt;li style=&quot;orphans: 4;&quot;&gt;&lt;font face=&quot;Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, Segoe UI Emoji, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 8px; caret-color: rgb(0, 122, 255); white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;所有乘客已上车&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=9;" vertex="1" parent="ZF72Yf7-sbAUzCkSVSFs-59">
+          <mxGeometry x="513.5" y="260" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-165" value="&lt;ul&gt;&lt;li style=&quot;orphans: 4;&quot;&gt;&lt;font face=&quot;Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, Segoe UI Emoji, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 8px; caret-color: rgb(0, 122, 255); white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;地面目标 &amp;amp; &lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 8px; caret-color: rgb(0, 122, 255); white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;目标在载具停靠距离内(≤15米)&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;orphans: 4;&quot;&gt;&lt;font face=&quot;Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, Segoe UI Emoji, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 8px; caret-color: rgb(0, 122, 255); white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;载具状态异常&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=9;" vertex="1" parent="ZF72Yf7-sbAUzCkSVSFs-59">
+          <mxGeometry x="683" y="310" width="267" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-167" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 8px; orphans: 4; caret-color: rgb(0, 122, 255); white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;地面目标 &amp;amp; 目标在载具停靠距离内(≤15米)&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;orphans: 4;&quot;&gt;&lt;font face=&quot;Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, Segoe UI Emoji, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 8px; caret-color: rgb(0, 122, 255); white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;载具状态异常&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=9;" vertex="1" parent="ZF72Yf7-sbAUzCkSVSFs-59">
+          <mxGeometry x="511.5" y="319" width="206.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-169" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 8px; orphans: 4; caret-color: rgb(0, 122, 255); white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;地面目标 &amp;amp; 目标在载具停靠距离外(&amp;gt;15米)&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=9;" vertex="1" parent="ZF72Yf7-sbAUzCkSVSFs-59">
+          <mxGeometry x="311" y="401" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-171" value="&lt;ul&gt;&lt;li style=&quot;orphans: 4;&quot;&gt;&lt;font face=&quot;Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, Segoe UI Emoji, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 8px; caret-color: rgb(0, 122, 255); white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;移动目标&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=9;" vertex="1" parent="ZF72Yf7-sbAUzCkSVSFs-59">
+          <mxGeometry x="460" y="403" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-174" value="&lt;ul&gt;&lt;li style=&quot;orphans: 4;&quot;&gt;&lt;font face=&quot;Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, Segoe UI Emoji, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 8px; caret-color: rgb(0, 122, 255); white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;地面目标 &amp;amp; &lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 8px; caret-color: rgb(0, 122, 255); white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;目标在载具停靠距离内(≤15米)&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;orphans: 4;&quot;&gt;&lt;font face=&quot;Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, Segoe UI Emoji, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 8px; caret-color: rgb(0, 122, 255); white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;载具状态异常&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=9;" vertex="1" parent="ZF72Yf7-sbAUzCkSVSFs-59">
+          <mxGeometry x="508" y="498" width="121" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ZF72Yf7-sbAUzCkSVSFs-59" source="ZF72Yf7-sbAUzCkSVSFs-120" target="ZF72Yf7-sbAUzCkSVSFs-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="950" y="500" />
+              <mxPoint x="950" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-177" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Open Sans&amp;quot;, &amp;quot;Clear Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Segoe UI Emoji&amp;quot;, sans-serif; font-size: 8px; orphans: 4; caret-color: rgb(0, 122, 255); white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;地面目标 &amp;amp; 目标在载具停靠距离外(&amp;gt;15米)&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=9;" vertex="1" parent="ZF72Yf7-sbAUzCkSVSFs-59">
+          <mxGeometry x="507.5" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-180" value="&lt;ul&gt;&lt;li style=&quot;orphans: 4;&quot;&gt;&lt;font face=&quot;Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, Segoe UI Emoji, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 8px; caret-color: rgb(0, 122, 255); white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;移动目标&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=9;" vertex="1" parent="ZF72Yf7-sbAUzCkSVSFs-59">
+          <mxGeometry x="554.75" y="377" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF72Yf7-sbAUzCkSVSFs-181" value="&lt;ul&gt;&lt;li style=&quot;orphans: 4;&quot;&gt;&lt;font face=&quot;Open Sans, Clear Sans, Helvetica Neue, Helvetica, Arial, Segoe UI Emoji, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 8px; caret-color: rgb(0, 122, 255); white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;下车成功&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=9;" vertex="1" parent="ZF72Yf7-sbAUzCkSVSFs-59">
+          <mxGeometry x="891" y="220" width="100" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
